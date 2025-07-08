@@ -6,4 +6,17 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  video: true,
+  reporter: 'mochawesome',
+   reporterOptions: {
+      reportDir: 'cypress/results',
+      overwrite: false,
+      html: true,
+      json: false,
+      charts: true,
+      code: true,
+      reportTitle: true,
+      timestamp: "mmddyyyy_HHMMss" },
+
+  screenshotOnRunFailure: true
 });

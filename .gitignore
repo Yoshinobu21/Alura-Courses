@@ -17,3 +17,5 @@ cypress/videos/*
 /.env
 /logs/
 *.tmp
+videos
+mochawesome-report
